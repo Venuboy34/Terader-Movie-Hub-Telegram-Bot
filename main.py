@@ -25,8 +25,8 @@ api_key = os.environ.get('tmdbApiKey')
 PORT = int(os.environ.get('PORT', '8443'))
 logger = logging.getLogger(__name__)
 
-TOKEN = os.environ.get('TOKEN')
-name = ''
+TOKEN = os.environ.get('7797582116:AAGzBxO0KsVdYVQlTdjkuw5qZUJKUv-2OGQ')
+name = 'zeromovie'
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
